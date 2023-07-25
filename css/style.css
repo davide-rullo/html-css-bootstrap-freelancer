@@ -3,6 +3,7 @@
     --frl-secondary: #2c3e50;
     --frl-accent: #333333;
     --frl-white: white;
+    --frl-footer: #3a546d;
 }
 
 img {
@@ -44,6 +45,9 @@ h1, h2, h3, h4, h5{
     padding: 2.5rem 0;
 }
 
+footer .container{
+    padding-top: 2.5rem;
+}
 
 .blue-decor{
     color: var(--frl-secondary);
@@ -89,3 +93,37 @@ h1, h2, h3, h4, h5{
 }
 
 /* Footer */
+
+footer{
+    color: var(--frl-white);
+}
+
+footer p{
+    margin: 0;
+}
+
+.info{
+    background-color: var(--frl-footer);
+ 
+}
+
+.copy{
+    background-color: var(--frl-secondary);
+}
+
+.copy p{
+    margin: 0;
+    text-align: center;
+   
+}
+
+.circle{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.marked{
+    color: var(--frl-prymary);
+}
