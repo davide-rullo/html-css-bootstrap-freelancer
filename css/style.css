@@ -10,6 +10,11 @@ img {
     max-width: 100%;
 }
 
+a{
+    color: var(--frl-white);
+    text-decoration: none;
+}
+
 /* Nav */
 
 nav {
@@ -17,6 +22,7 @@ nav {
     height: 50px;
     color: var(--frl-white);
 }
+
 /* End Nav */
 
 
@@ -28,11 +34,13 @@ hr {
     opacity: 1;
 }
 
-h6 {
-    font-size: .8rem;
-}
 
-h1, h2, h3, h4, h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
 
     margin-bottom: 0;
 }
@@ -41,28 +49,34 @@ h1, h2, h3, h4, h5{
     width: 100%;
 }
 
-.jumbotron, .portfolio, .about, .contacts {
+.jumbotron,
+.portfolio,
+.about,
+.contacts,
+.info,
+.copy {
     padding: 2.5rem 0;
 }
 
-footer .container{
-    padding-top: 2.5rem;
-}
 
-.blue-decor{
+.blue-decor {
     color: var(--frl-secondary);
 }
 
-.blue-decor hr{
+.blue-decor hr {
     border: 1px solid var(--frl-secondary);
 }
 
-.blue_title{
+.blue_title {
     text-align: center;
 }
 
-.col-12{
+.col-12 {
     padding-bottom: 1rem;
+}
+
+.about .container , .contacts .container {
+    padding: 0 6rem;
 }
 
 /* End Utilities */
@@ -75,7 +89,8 @@ footer .container{
 }
 
 
-.jumbotron, .about {
+.jumbotron,
+.about {
     background-color: var(--frl-prymary);
     color: var(--frl-white);
 }
@@ -88,42 +103,47 @@ footer .container{
 
 /* About */
 
-.about h2{
+.about h2 {
     text-align: center;
 }
 
 /* Footer */
 
-footer{
+footer {
     color: var(--frl-white);
 }
 
-footer p{
+footer p {
     margin: 0;
 }
 
-.info{
+.info {
     background-color: var(--frl-footer);
- 
+
 }
 
-.copy{
+.info_title{
+    font-size: 1.2rem;
+}
+
+
+.copy {
     background-color: var(--frl-secondary);
 }
 
-.copy p{
+.copy p {
     margin: 0;
     text-align: center;
-   
+
 }
 
-.circle{
-    width: 30px;
+.circle {
+    width: 40px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: 1px solid white;
 }
 
-.marked{
+.marked {
     color: var(--frl-prymary);
 }
