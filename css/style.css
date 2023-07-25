@@ -23,7 +23,7 @@ h6 {
     font-size: .8rem;
 }
 
-.jumbotron h1{
+h1, h2, h3, h4, h5{
 
     margin-bottom: 0;
 }
@@ -49,4 +49,28 @@ nav {
 
 .profession {
     text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.portfolio{
+    padding-top: 1.5rem;
+}
+
+
+.blue-decor{
+    color: var(--frl-secondary);
+}
+
+.blue-decor hr{
+    border: 1px solid var(--frl-secondary);
+}
+
+.col-12{
+    height: 100px;
+    background-color: #1abc9c;
+    border: 1px solid white;
+}
+
+.blue_title{
+    text-align: center;
 }
