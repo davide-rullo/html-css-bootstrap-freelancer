@@ -15,7 +15,7 @@ hr {
     opacity: 1;
 }
 
-h1 {
+.jumbotron {
     text-transform: uppercase;
 }
 
@@ -28,13 +28,17 @@ h1, h2, h3, h4, h5{
     margin-bottom: 0;
 }
 
+.about h2{
+    text-align: center;
+}
+
 nav {
     background-color: var(--frl-secondary);
     height: 50px;
     color: var(--frl-white);
 }
 
-.jumbotron {
+.jumbotron, .about {
     background-color: var(--frl-prymary);
     color: var(--frl-white);
 }
@@ -47,14 +51,15 @@ nav {
     width: 100%;
 }
 
-.profession {
-    text-transform: uppercase;
-    padding-bottom: 1rem;
+.jumbotron, .portfolio, .about, .contacts {
+    padding: 2.5rem 0;
 }
 
-.portfolio{
-    padding-top: 1.5rem;
-}
+
+/* Portfolio */
+
+
+
 
 
 .blue-decor{
@@ -66,11 +71,14 @@ nav {
 }
 
 .col-12{
-    height: 100px;
-    background-color: #1abc9c;
-    border: 1px solid white;
+    padding-bottom: 1rem;
+   
+  
 }
 
 .blue_title{
     text-align: center;
 }
+
+/* About */
+
