@@ -9,14 +9,22 @@ img {
     max-width: 100%;
 }
 
+/* Nav */
+
+nav {
+    background-color: var(--frl-secondary);
+    height: 50px;
+    color: var(--frl-white);
+}
+/* End Nav */
+
+
+/* Utilities */
+
 hr {
     width: 12%;
     border: 1px solid white;
     opacity: 1;
-}
-
-.jumbotron {
-    text-transform: uppercase;
 }
 
 h6 {
@@ -28,25 +36,6 @@ h1, h2, h3, h4, h5{
     margin-bottom: 0;
 }
 
-.about h2{
-    text-align: center;
-}
-
-nav {
-    background-color: var(--frl-secondary);
-    height: 50px;
-    color: var(--frl-white);
-}
-
-.jumbotron, .about {
-    background-color: var(--frl-prymary);
-    color: var(--frl-white);
-}
-
-.jumbotron img {
-    width: 100px;
-}
-
 .decor {
     width: 100%;
 }
@@ -54,12 +43,6 @@ nav {
 .jumbotron, .portfolio, .about, .contacts {
     padding: 2.5rem 0;
 }
-
-
-/* Portfolio */
-
-
-
 
 
 .blue-decor{
@@ -70,15 +53,39 @@ nav {
     border: 1px solid var(--frl-secondary);
 }
 
-.col-12{
-    padding-bottom: 1rem;
-   
-  
-}
-
 .blue_title{
     text-align: center;
 }
 
+.col-12{
+    padding-bottom: 1rem;
+}
+
+/* End Utilities */
+
+/* Jumbo */
+
+
+.jumbotron {
+    text-transform: uppercase;
+}
+
+
+.jumbotron, .about {
+    background-color: var(--frl-prymary);
+    color: var(--frl-white);
+}
+
+.jumbotron img {
+    width: 100px;
+}
+
+/* End Jumbo */
+
 /* About */
 
+.about h2{
+    text-align: center;
+}
+
+/* Footer */
