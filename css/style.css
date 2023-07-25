@@ -1,0 +1,52 @@
+:root {
+    --frl-prymary: #1abc9c;
+    --frl-secondary: #2c3e50;
+    --frl-accent: #333333;
+    --frl-white: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    width: 12%;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: .8rem;
+}
+
+.jumbotron h1{
+
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: var(--frl-secondary);
+    height: 50px;
+    color: var(--frl-white);
+}
+
+.jumbotron {
+    background-color: var(--frl-prymary);
+    color: var(--frl-white);
+}
+
+.jumbotron img {
+    width: 100px;
+}
+
+.decor {
+    width: 100%;
+}
+
+.profession {
+    text-transform: uppercase;
+}
