@@ -16,7 +16,31 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <nav>Navbar</nav>
+     
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+              <a class="navbar-brand" href="#"><h5 class="text-white">START BOOTSTRAP</h5></a>
+              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><h6 class="text-white">PORTFOLIO</h6></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><h6 class="text-white">ABOUT</h6></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><h6 class="text-white">CONTACT</h6></a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+
         <section class="jumbotron">
             <div
                 class="container d-flex flex-column justify-content-center align-items-center ">
@@ -30,7 +54,8 @@
                 </div>
                 <div
                     class="profession d-flex justify-content-center align-items-center">
-                    <p>Graphic Artist - Web Designer - Illustrator</p>
+                    
+                    <p class="fs-6">Graphic Artist - Web Designer - Illustrator</p>
                 </div>
             </div>
         </section>
@@ -88,8 +113,9 @@
                     </div>
                 </div>
                 <div class="transparent_btn d-flex justify-content-center">
-                    <button type="button" class="btn btn-outline-light"><i
-                            class="fa-solid fa-download"></i> Download</button>
+                    <a href="#" class="btn btn-outline-light"><i
+                            class="fa-solid fa-download"></i> Download</a>
+
                 </div>
 
             </div>
@@ -104,6 +130,41 @@
                     <i class="fa-solid fa-star"></i>
                     <hr>
                 </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="InputName" class="form-label mb-0"><h6 class="mb-0">Name</h6></label>
+                 
+                        <input type="Name"
+                            class="form-control border-0 border-bottom rounded-0 "
+                            id="InputName" aria-describedby="emailHelp">
+                       
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label mb-0"><h6 class="mb-0">Email
+                            address</h6></label>
+                        <input type="email"
+                            class="form-control border-0 border-bottom rounded-0 "
+                            id="exampleInputEmail1" aria-describedby="emailHelp">
+                       
+                    </div>
+                    <div class="mb-3">
+                        <label for="examplePhoneNumber" class="form-label mb-0"><h6 class="mb-0">Phone number</h6></label>
+                        <input type="email"
+                            class="form-control border-0 border-bottom rounded-0  h-25"
+                            id="examplePhoneNumber" aria-describedby="emailHelp">
+                       
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleMessage" class="form-label mb-0"><h6 class="mb-0">Message</h6></label>
+                        <input type="email"
+                            class="message  form-control border-0 border-bottom rounded-0 "
+                            id="exampleMessage" aria-describedby="emailHelp">
+                       
+                    </div>
+             
+                    
+                    <button type="submit" class="btn">Send</button>
+                </form>
             </div>
         </section>
         <footer>
@@ -113,27 +174,28 @@
                         <div class="col-12 col-sm-4 text-center">
                             <p class="info_title">LOCATION</p>
                             <p>2215 John Daniel Drive Clark, MO 54243</p>
-                            
+
                         </div>
                         <div class="col-12 col-sm-4 text-center">
                             <p class="info_title">AROUND THE WEB</p>
-                            <div class="social d-flex justify-content-center align-items-center gap-2">
+                            <div
+                                class="social d-flex justify-content-center align-items-center gap-2">
                                 <a href="#"> <div
-                                    class="circle d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div></a>
-                              <a href="#">  <div
-                                    class="circle d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-google-plus-g"></i>
-                                </div></a>
-                               <a href="#"> <div
-                                    class="circle d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div></a>
-                              <a href="#">  <div
-                                    class="circle d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </div></a>
+                                        class="circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div></a>
+                                <a href="#"> <div
+                                        class="circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </div></a>
+                                <a href="#"> <div
+                                        class="circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div></a>
+                                <a href="#"> <div
+                                        class="circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div></a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-4 text-center">
