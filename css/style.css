@@ -101,6 +101,11 @@ h5 {
 
 /* End Jumbo */
 
+.portfolio .col-12 img{
+    border-radius: 20px;
+}
+
+
 /* About */
 
 .about h2 {
